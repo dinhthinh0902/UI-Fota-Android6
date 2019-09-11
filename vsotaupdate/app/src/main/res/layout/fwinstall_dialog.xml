@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@drawable/vs_logo_seethedifference"
+        android:layout_width="240dp"
+        android:layout_height="64dp"
+        android:scaleType="center"
+        android:background="#FFFFBB33"
+        android:contentDescription="@string/app_name" />
+
+    <TextView android:text="@string/fw_download_install" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:paddingTop="8dp"
+        android:id="@+id/fw_install" />
+    <TextView android:text="@string/fw_download_prompt" android:layout_width="640dp"
+        android:layout_height="188dp"
+        android:textSize="@dimen/abc_text_size_body_1_material"
+        android:paddingTop="8dp"
+        android:id="@+id/fw_prompt"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/filesize" />
+</LinearLayout>
